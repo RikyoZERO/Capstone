@@ -87,6 +87,7 @@ HOW MINE WILL BE DIFFERENT:
 • Instant “Your confession was posted!” feedback
 • Optional “Random Confession” mode
 
-WIREFRAME: Link
-FLOW DIAGRAM: Link
-SWOT: Link
+WIREFRAME: https://drive.google.com/file/d/1t4a3TvkXsGsj1VALE8kvCK5xaAc5uK4y/view?usp=drive_link
+FLOW DIAGRAM: https://drive.google.com/file/d/1oZ-Sk1s0rhB34PJ6haeQA-FZPM4ZAUyu/view?usp=drive_link
+SWOT: https://drive.google.com/file/d/1t4a3TvkXsGsj1VALE8kvCK5xaAc5uK4y/view?usp=drive_link
+Mural: https://drive.google.com/file/d/1_kRj3MSf475NbcOKA1ar2I82EtvECQef/view?usp=drive_link
