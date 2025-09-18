@@ -1,53 +1,17 @@
-/* General Styles */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #fefefe;
-  color: #333;
-}
+import {header, nav, main, footer } from "./components";
+import * as store from "./store";
+import Navigo from "navigo";
+import { camelCase } from "lodash";
+import axios from "axios";
 
-/* Header */
-header {
-  background: #ffd54f;
-  padding: 1rem;
-  text-align: center;
-  border-bottom: 2px solid #333;
-}
+const router = new Navigo("/");
 
-/* Navigation */
-nav {
-  background: #333;
-}
-nav ul {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  justify-content: center;
-}
-nav li {
-  margin: 0 1rem;
-}
-nav a {
-  color: white;
-  text-decoration: none;
-}
-nav a:hover {
-  text-decoration: underline;
-}
-
-/* Main Content */
-main {
-  padding: 2rem;
-  text-align: center;
-}
-
-/* Footer */
-footer {
-  background: #333;
-  color: white;
-  text-align: center;
-  padding: 1rem;
-  margin-top: 2rem;
+function render(state = store.home) {
+  document.querySelector("#root").innerHTML = `
+    ${header(state)}
+    ${nav(store.nav)}
+    ${main(state)}
+    ${footer()}
+  `;
+  // router.updatePageLinks();
 }
