@@ -1,11 +1,8 @@
 import html from "html-literal"
-import * as views from "./views";
-
+import * as views from "../views";
 export default (state) => html`
     ${views[state.view](state)}
-    `;
-    
-  <main>
+    <main>
     <h2>Welcome!</h2>
     <p>Share your funniest, most awkward “Ducked Up” text moments anonymously and read what others have posted!</p>
   <main>
@@ -23,5 +20,7 @@ export default (state) => html`
     <button type="submit">Submit a duckUp</button>
   </form>
 </main>
+
+    `;
 
 

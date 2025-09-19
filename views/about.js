@@ -1,5 +1,6 @@
 import html from "html-literal";
 import * as views from ".";
+export default (state) => html`
 <main>
     <h2>Why #iDuckedUp?</h2>
     <p>
@@ -15,3 +16,4 @@ import * as views from ".";
     alt="Duck Image"
   />
 </div>
+`;
